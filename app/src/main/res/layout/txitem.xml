@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:paddingBottom="@dimen/Thirty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tv_image"
+            android:layout_width="@dimen/One_hundred"
+            android:layout_height="@dimen/One_hundred"
+            android:layout_marginLeft="@dimen/Thirty"
+            android:layout_marginRight="@dimen/twenty"
+            android:layout_marginTop="@dimen/Forty"
+            android:src="@drawable/rentou" />
+
+        <TextView
+            android:layout_marginRight="@dimen/Thirty"
+            android:id="@+id/tx_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_image"
+            android:layout_marginTop="@dimen/six"
+            android:layout_toRightOf="@+id/tv_image"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="标题标题标题标题标题标题标题标题"
+            android:textSize="@dimen/Thirty_six" />
+
+        <TextView
+            android:layout_marginRight="@dimen/Thirty"
+            android:id="@+id/tx_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_image"
+            android:layout_marginBottom="@dimen/six"
+            android:layout_toRightOf="@+id/tv_image"
+            android:singleLine="true"
+            android:text="正文正文正文正文正文正文正文正文正文正文"
+            android:textSize="@dimen/Thirty_two" />
+
+        <ImageView
+            android:id="@+id/iv_deblocking"
+            android:layout_marginTop="@dimen/Thirty"
+            android:layout_marginRight="@dimen/twenty_five"
+            android:layout_alignTop="@+id/tx_title"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/word_lock" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingBottom="@dimen/Thirty"
+        android:layout_marginRight="@dimen/Thirty"
+        android:layout_marginLeft="@dimen/Thirty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="财政部：将全部资金放进仓库，我过三种全会开发支出要给任命一个好福利可是中国共产党怎么就这么不给力呢" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/Thirty">
+
+    <RelativeLayout
+        android:id="@+id/rel_old"
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="@dimen/two_hundred_eighty"
+        android:layout_marginRight="@dimen/Thirty">
+
+        <ImageView
+            android:id="@+id/video_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/approve" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/Thirty"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/old_tv"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/Thirty"
+                android:layout_toLeftOf="@+id/old_tv"
+                android:src="@drawable/bofangbiao" />
+
+            <TextView
+                android:id="@+id/old_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="200" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/old_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rel_old"
+        android:text="fdsagdasgfdsafdsfdsaf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/old_body"
+        android:layout_toRightOf="@+id/rel_old"
+        android:text="fdsagdasgdsa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rel_old"
+        android:layout_toRightOf="@+id/rel_old"
+        android:text="fdsagdasgdsa" />
+
+
+</RelativeLayout>

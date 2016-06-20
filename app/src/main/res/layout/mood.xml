@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_marginTop="@dimen/Thirty"
+    android:layout_marginRight="@dimen/Thirty"
+    android:layout_marginLeft="@dimen/Thirty"
+    android:layout_marginBottom="@dimen/Thirty"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/One_hundred"
+        android:layout_height="@dimen/One_hundred"
+        android:src="@drawable/rentou" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="明飞" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人气：365" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/lively_iv"
+        android:layout_margin="@dimen/Thirty"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/lively_iv"
+        android:textColor="@color/my"
+        android:textSize="@dimen/Forty_two"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股市牛人（120）" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/Thirty"
+        android:textSize="@dimen/Thirty_two"
+        android:textColor="@color/cl_btn"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="贡献值365分" />
+
+</RelativeLayout>
