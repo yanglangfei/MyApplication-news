@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 /**
  * Created by jucaipen on 16/5/5.
+ *
+ *   hhjhkjjh
  */
 public class BaseActivity extends Activity {
 
