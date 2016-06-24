@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar">
 
-        <activity android:name="com.example.androidnetwork.WelcomActivity">
+        <activity android:name="com.example.test.VideoTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -129,6 +129,17 @@
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+
+
+        <activity android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" >
+        </activity>
+        <service android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false">
+        </service>
     </application>
 
 </manifest>

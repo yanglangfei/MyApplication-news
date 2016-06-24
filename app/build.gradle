@@ -48,4 +48,6 @@ dependencies {
     compile files('libs/ShareSDK-QQ-2.6.1.jar')
     compile files('libs/ShareSDK-QZone-2.6.1.jar')
     compile files('libs/ShareSDK-SinaWeibo-2.6.1.jar')
+    compile 'fm.jiecao:jiecaovideoplayer:3.6'
+    compile files('libs/weibosdkcore_release.jar')
 }

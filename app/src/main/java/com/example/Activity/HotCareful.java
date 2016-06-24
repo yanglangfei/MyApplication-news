@@ -402,7 +402,7 @@ public class HotCareful extends Activity implements View.OnClickListener,Adapter
         });
     }
 
-
+   //分享给微信好友
     public  void shareWX(){
         WXTextObject object=new WXTextObject();
         object.text="我要分享";
@@ -419,6 +419,7 @@ public class HotCareful extends Activity implements View.OnClickListener,Adapter
         api.sendReq(req);
     }
 
+    //分享到微信朋友圈
     public  void shareWXz(){
         WXTextObject object=new WXTextObject();
         object.text="我要分享";
