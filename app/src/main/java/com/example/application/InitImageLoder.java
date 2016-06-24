@@ -11,6 +11,7 @@ import cn.finalteam.galleryfinal.FunctionConfig;
 import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.ImageLoader;
 import cn.finalteam.galleryfinal.ThemeConfig;
+import cn.jpush.android.api.JPushInterface;
 
 public class InitImageLoder extends Application {
 
@@ -25,5 +26,7 @@ public class InitImageLoder extends Application {
         ImageLoader loader=new UILImageLoader();  //配置ImageLoader
         CoreConfig config=new CoreConfig.Builder(this,loader,theme).setFunctionConfig(function).build();
         GalleryFinal.init(config);
+        JPushInterface.setDebugMode(true);
+        JPushInterface.init(this);
 	}
 }
